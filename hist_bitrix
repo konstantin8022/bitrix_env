@@ -1,0 +1,448 @@
+CD /WWW
+htpasswd -b al 1
+htpasswd -nb al 1
+htpasswd -nb al 1 > .htpasswd
+nginx -t
+telnet 127.0.0.01 9000
+telnet 127.0.0.1 9000
+nginx -t
+service nginx restart
+netstat -tpln
+iptables-save 
+service firewalld restart
+yum install php71-php-mbstring php71-php-mysql
+y
+yum install php71-php-mbstring php71-php-mysql
+CD /WWW
+service php71-php-fpm restart
+excd ~
+htpasswd -nb admin 9918237401982734013r7aklsASDFASDFalkdfj > .htpasswd
+tar czf phpmyadmin_bitrix.tgz www
+apt install pureftpd
+yum install pureftpd
+yum install pure-ftpd
+adduser fashion-mania
+passwd fashion-mania
+usermod -g bitrix fashion-mania
+chmod g+w -R *
+chmod g+w -R .*
+service firewalld restart
+service pure-ftpd restart
+netstat -tpln
+netstat -tpln | grep pur
+service pure-ftpd restart
+service firewalld restart
+service pure-ftpd restart
+mount fashion-mania/
+service firewalld restartls -laG
+ls -laG
+chmod g+x -R *
+ls -laG
+mc
+exit
+mc
+cat .bash_history | grep yum
+dd if=/dev/zero bs=1M count=4096 of=/swp
+mcedit /etc/fstab 
+swapon /swp
+mcedit /etc/fstab 
+mcedit /etc/crontab 
+mysql
+mysql
+mysql
+yum install unzip
+unzip 
+unzip phpMyAdmin-4.8.3-all-languages.zip 
+htpasswd -c al 1
+htpasswd -bn al 1
+htpasswd -bn al 1 > .htpasswd
+yum search php | grep mbstr
+yum install php71-php-mbstring
+service http restart
+service httpd restart
+yum install phpmyadmin
+mkdi cd "`printf "%b" '\0057home\0057bitrix'`"
+yum search certbot
+yum install python2-certbot-nginx
+service httpd restart
+yum install phpmyadmin
+service httpd restart
+service httpd restart
+service httpd restart
+service httpd restart
+netstat -tpln
+certbot --nginx -d  fashion-mania.ru -d www.fashion-mania.ru
+/etc/init.d/nginx
+service nginx restart
+netstat -tpln 
+nginx -t
+nginx -t
+service nginx restart
+apt install sendmail-cf
+yum install sendmail-cf
+./make
+service sendmail restart
+yum install telnet
+service sendmail restart
+service sendmail stop
+telnet  0  25
+service sendmail start
+telnet  0  25
+dmesg 
+mysql
+mysqldump sitemanager > sitemanager.sql
+php db_change.php 
+mysql sitemanager < db_change.php.20181212220454.sql 
+yum install tcpdump
+tcpdump -i any port 25
+tcpdump -i any port 25 -n -A -vvv
+mcedit /etc/php.d/bitrixenv.ini
+service httpd restart
+tcpdump -i any port 25 -n -A -vvv
+passwd 
+tcpdump -i any port 25 -n -A -vvv
+mcedit /etc/crontab 
+certbot renew --dry-run
+mcedit /etc/crontab 
+dmesg 
+date
+tcpdump -i any port 25 -n -A -vvv
+service httpd restart
+service httpd restart
+service httpd restart
+service httpd restart
+service httpd stop
+service httpd start
+php -v
+yum install php71-php-fpm
+service php-fpm71 restart
+service php71-php-fpm restar
+service php71-php-fpm restart
+ls | grep fpm
+ls | grep fpm 
+yum install php71-php-fpm
+service php71-php-fpm restart
+netstat -tpln
+df -h
+mc
+yum install mc
+yum update
+mc
+vi /etc/resolv.conf 
+yum update
+yum install mc
+mc
+exit
+service httpd restart
+apt install mailx
+yum install mailx
+./menu.sh 
+mc
+tcpdump -i any port 25
+tcpdump -i any port 25 -n -A -vvv
+mc
+service httpd restart
+tcpdump -i any port 25 -n
+tcpdump -i any port 25 -n -A -vvvv
+tcpdump -i any port 25 -n -A -vvvv
+service https restart
+service httpd restart
+tcpdump -i any port 25 -n -A -vvvv
+service httpd restart
+tcpdump -i any port 25 -n -A -vvvv
+mc
+cat /etc/crontab 
+cat /etc/crontab 
+cat .bash_history | grep cert
+ps ax | grep pure
+systemctl enable pure-ftpd
+service pure-ftpd restart
+mc
+cat /etc/crontab 
+yum install mc
+cd /home/bitrix/www/
+su bitrix
+mc
+clear
+su bitrix
+vi .ssh/authorized_keys 
+exit
+su bitrix
+mc
+cd /home/bitrix/www/
+rm 13.php 14.php 
+exite
+exit
+egrep -R 'mail.ru' .
+clear
+mc
+egrep -R 'mail.ru' .
+vi msmtprc 
+service msmtprc restart
+service mail restart
+cd /
+cd ~
+service msmtp restart
+systemctl
+systemctl | grep ms
+systemctl | grep mail
+service sendmail restart
+passwd
+passwd bitrix
+passwd bitrix
+exit
+mc
+exit
+0
+password sites
+login
+0
+exit
+vi .ssh/authorized_keys 
+su bitrix
+exit
+su bitrix
+exit
+passwd
+ls -la
+./menu.sh 
+cd /etc/nginx/
+ls -la
+cd bx/
+ls -la
+cd site_avaliable/
+ls -la
+cd ../site_e
+cd ../site_enabled/
+ls -la
+cd ../
+ls -la
+cd conf/
+ls -la
+cat bitrix_block.conf
+cd ../
+ls -la
+cd site_avaliable/
+ls -la
+cd ..
+cd site_ext_enabled
+ls -la
+cd ..
+cd settings/
+ls -la
+cd ..
+ls -la
+cd ..
+cat nginx.conf
+cd bx/site_enabled/
+ls -la
+cat pool_manager.conf 
+ls -la
+cat s1.conf 
+/root/menu.sh 
+cd /home/bitrix/www/
+ls -la
+cd /etc/nginx/bx/site_avaliable/
+ls -la
+cat s1.conf 
+cat ssl.s1.conf 
+ls -la /etc/letsencrypt/live/fashion-mania.ru/fullchain.pem;
+cat ssl.s1.conf 
+ls /etc/nginx/ssl/
+ls -la /etc/nginx/ssl/
+nano ssl.s1.conf 
+uname -a
+cat /etc/issue
+yum install nano
+nano ssl.s1.conf 
+nginx -t
+nano ssl.s1.conf 
+nginx -t
+systemctl status nginx
+htop
+free -m
+nano /etc/nginx/bx/conf/im_settings.conf
+nano /etc/nginx/bx/conf/push-im_settings.conf 
+nginx -t
+systemctl reload nginx
+yum install ps_mem
+ps_mem
+atop
+top
+top -m
+top --help
+top -help
+man top
+yum install htop
+htop
+df -h /
+3
+root
+3
+malzef89636173858
+3
+0
+cat /etc/nginx/bx/site_avaliable/s1.conf 
+cd /home/bitrix/
+ls -la
+cat .msmtprc 
+nano .msmtprc 
+cd www/
+ls -la
+ls -la /etc/msmtprc 
+hostname
+tail -f /var/log/maillog
+tail -f /var/log/maillog-20190818
+cat /var/log/maillog-20190818
+cat /var/log/maillog-20190825
+cat /var/log/maillog-20190908
+systemctl restart httpd
+tail -f /var/log/mail/statistics 
+tail -f /var/log/maillog
+nano /etc/httpd/bx/conf/default.conf 
+systemctl restart httpd
+tail -f /var/log/maillog
+cd ..
+ls -la
+tail -f msmtp_default.log
+nano /etc/httpd/bx/conf/default.conf 
+systemctl restart httpd
+tail -f msmtp_default.log
+/root/menu.sh 
+yum install ncdu
+ncdu /
+systemctl status mysql
+systemctl statustart mysql
+systemctl start mysql
+df -h /
+ncdu
+cd /home/bitrix/www/bitrix/
+cd backup/
+ls -la
+rm -rf fashion-mania.ru_20200123*
+ls -la
+rm -rf fashion-mania.ru_20200130_051702*
+ls -la 
+systemctl status mysql
+systemctl start mysql
+df -h /
+ncdu 
+ncdu /
+cat /etc/nginx/bx/conf/bitrix.conf
+ncdu
+ncdu /
+cd /home/fashion-mania/
+ls -la
+cd www/bitrix/backup/
+ls -la
+rm -rf ./*
+ls -la
+cd /home/
+ls -la
+cd bitrix/
+ls -la
+cd www/
+ls -la
+cd /home/
+ls -la
+cd fashion-mania/
+ls -la
+cd www/
+ls -la
+cd bitrix/backup/
+ls -la
+cd /home/bitrix/www/bitrix/backup/
+ls -la
+/root/menu.sh 
+tail -f /var/log/btmp
+crontab -e
+cat /etc/crontab 
+w
+top
+service mysql status
+cat /var/log/mysqld.log 
+cat /var/log/mysql.log 
+cat /var/log/mysql/error.log
+service mysql start
+journalctl -xe
+service mysql start
+systemctl status mysqld.service
+journalctl -xe
+ps aux | grep mysql
+service mysqld stop
+ps aux | grep mysql
+service mysql start
+journalctl -xe
+systemctl status mysql
+systemctl status mysqld
+systemctl status mysql
+service mysql stop
+service mysqld stop
+systemctl status mysql
+nano /etc/my.cnf
+df- h
+df -h
+du -sh /var
+du -sh /var/*
+du -sh /var/cache/*
+yum clean packages
+du -sh /var/cache/*
+nano /etc/yum.conf
+yum clean packages
+yum clean metadata
+yum clean headers
+yum clean all
+df -h
+htop
+service mysql start
+du -sh /*
+du -sh /var/*
+du -sh /var/log/*
+rm /var/log/btmp-20200201
+rm /var/log/secure-20200223 /var/log/secure-20200216 /var/log/secure-20200209 /var/log/secure-20200202 /var/log/cron-20200223 /var/log/cron-20200216 /var/log/cron-20200209 /var/log/cron-20200202 
+y
+du -sh /usr/*
+du -sh /usr/share/*
+du -sh /home/*
+du -sh /home/bitrix/*
+du -sh /home/bitrix/www/*
+du -sh /home/bitrix/www/bitrix/*
+du -sh /home/bitrix/www/bitrix/backup/*
+du -sh /home/bitrix/www/bitrix/*
+df -h
+curl -I https://fashion-mania.ru/bitrix/modules/main/tools/backup.php
+ls
+ls bitrix-env/
+crontab -e
+cat /etc/crontab 
+du -sh /home/&
+du -sh /home/*
+df -h
+du -sh /home/bitrix/www/*
+du -sh /home/bitrix/www/bitrix/*
+du -sh /home/bitrix/www/bitrix/
+service mysql restart
+0
+sevice mysql restart
+3
+mysql restart
+exit
+service mysql status
+service mysql stop
+service mysql start
+systemctl status mysqld.service
+journalctl -xe
+df -h
+du -sh /home/*
+du -sh /*
+du -sh /var/*
+du -sh /var/log/*
+df -h
+du -sh /var/log/*
+history 
+pstree
+cat /root/.ssh/authorized_keys 
+cat /dev/null > /root/.ssh/authorized_keys 
+vi /root/.ssh/authorized_keys 
+uptime 
+w
